@@ -28,10 +28,11 @@ def Song.artists
 end
  
 def Song.genre_count
+    @@genres.tally
 end
 
 def Song.artist_count
+    @@artists.tally
 end
-
 
 end
